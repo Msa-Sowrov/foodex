@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #FD5231;
+}
+h1{
+    font-weight: 700;
+}
+.primary-color{
+    	color: #FD5231;
+}
+.button{
+    
+    padding: 15px 30px;
+    border-radius: 20px;
+    background-image: linear-gradient(#FD5231,#FB944A);
+    color: white;
+    font-weight: 700;
+}
+#logo a{
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+}
+#nav{
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+#nav-bar ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+.warp{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.first-img{
+    width: 90%;
+    margin-left: 120px;
+}
+.half-width{
+    width: 50%;
+}
+.title{
+    font-size: 60px;
+    margin-top: 100px;
+    font-weight: 700;
+    color: rgb(80, 77, 77);
+
+}
+.title p{
+    color: rgb(80, 77, 77);
+
+}
+.btn{
+    margin-top: 50px;
+}
+
+#about{
+    background-image: url(images/bacground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.about-content{
+    margin: auto ;
+    margin-left: 200px;
+
+}
+.about-content h1{
+    color: rgb(80, 77, 77);
+    font-weight: 700;
+    font-size:40px ;
+
+}
+.food-card{
+    width: 25%;
+    box-shadow:-2px 2px 16px -4px #c2b2b2;
+
+    margin: auto;
+    border-radius: 20px;
+    padding: 15px;
+    justify-content: space-between;
+}
+.card-img{
+    text-align: center;
+}
+.card-img img{
+    width: 100%;
+}
+.recipies-title{
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgb(80, 77, 77);
+
+}
+.recipies-title h1{
+    color: rgb(80, 77, 77);
+
+}
+#recipies h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.contact{
+    width: 80%;
+    margin:0 auto ;
+    text-align: center;
+
+}
+#contact h1{
+    color: rgb(80, 77, 77);
+    font-size: 40px;
+    font-weight:700;
+
+}
+.contact input{
+    width: 78%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contact textarea{
+    width: 80%;
+
+}
+#contact{
+    background-image: url(images/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0;
+    margin-top: 50px;
+
+}
+footer{
+    background-color: black;
+    margin: 0 auto;
+    padding: 50px 0;
+    color: rgb(80, 77, 77);
+    text-align: center;
+}
+footer p{
+    font-size: 12px;
+    color: rgb(175, 172, 172);
+}
+#followers{
+    box-shadow:-2px 2px 16px -4px #c2b2b2;
+    padding: 50px;
+    display: flex;
+    width: 70%;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.followers{
+    width: 33%;
+}
+.followers h1{
+    font-size: 40px;
+    font-weight: 800;
+}
